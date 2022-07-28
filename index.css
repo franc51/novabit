@@ -1,0 +1,85 @@
+.titlu{
+    margin-left: 1vw;
+}
+.novabit{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.meniu{
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#0062ff;
+    
+  }
+  
+  li {
+    display: flex;
+    justify-content: right;
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    color: #111;
+  }
+
+  .navigation {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background-color: #0062ff;
+    height: 8vh;
+    
+  }
+  body { 
+    margin: 0%; 
+    background-color: rgb(255, 255, 255);
+
+}
+
+  .content{
+    padding-top: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+
+  .amp{
+    display: flex;
+    justify-content: center;
+   
+  }
+
+  .moto{
+    padding-top: 10vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .amp {
+      height: 35vh;
+    }
+  }

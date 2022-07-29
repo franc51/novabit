@@ -1,3 +1,6 @@
+@media screen and (max-width: 1400px) {
+
+
 .img-prz{
   width: 50vw;
   border-radius: 50%;
@@ -247,9 +250,262 @@ li:hover {
 .social a{
   margin-left: 1vw;
 }
-  @media only screen and (max-width: 700px) {
-    .amp {
-      height: 35vh;
+
+}
+
+
+
+
+
+
+
+  @media only screen and (max-width: 600px) {
+    .img-prz{
+      width: 95vw;
+      border-radius: 50%;
+    }
+    .divbuton{
+      height: 130px;
+      position: relative;
+    
+    }
+    .div-poza {
+      background-color: #195bc5;
+      width: 50vw;
+      height: 50vh;
+      padding-top: 0vh;
+      margin-right: 5vw;
+    }
+    
+    .button-1 {
+      
+      background-color: #EBF2FA;
+      border: none;
+      color: rgb(0, 0, 0);
+      padding: 15px 20px;
+      text-align: center;
+      text-decoration: none;
+      text-align: center;
+      font-size: 22px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      border: 2px solid #0c51c0;
+      border-radius: 7px;
+      margin: 0;
+      top: 30%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    
+      transition: 0.5s;
+      
+    }
+    .button-1:hover{
+      background-color:#0004ff;
+      border-bottom: #483bff;
+      color: white;
+     
+    }
+    .titlu{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    .novabit{
+        font-family:'Trebuchet MS';
+        background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(49, 49, 255));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 50px;
+    }
+    
+    
+    
+    ul {
+      
+      list-style-type: none;
+      margin-top: 0;
+      overflow: hidden;
+      background-color:#ffffff;
+      
+    }
+    
+    li {
+      display: flex;
+      justify-content: right;
+      float: right;
+      font-family:'Trebuchet MS';
+    }
+    
+    li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 5px 18px;
+      text-decoration: none;
+    }
+  
+     li.different{
+      visibility: hidden;
+    border: none;
+    position: relative;
+  }
+  li.different:hover{
+    border: none;
+  }
+  li:hover {
+    border-bottom: 5px solid #FFFFFF;
+  }
+  .different::after{
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 5px;
+    left: 50%;
+    bottom:0;
+    background-color: white;
+    transition: all ease-in-out .2s;
+  }
+  .different:hover::after{
+    width: 100%;
+    left: 0;
+  }
+  
+      
+    
+    
+    li.different{
+      border:none;
+      position: relative;
+    }
+    li.different:hover{
+      border: none;
+    }
+    li:hover {
+      border-bottom: 5px solid #FFFFFF;
+    }
+  
+    .different::after{
+      content: '';
+      position: absolute;
+      width: 0px;
+      height: 2px;
+      left: 50%;
+      bottom:0;
+      background: -webkit-linear-gradient(#eee, rgb(0, 89, 255));
+      transition: all ease-in-out .2s;
+    }
+    .different:hover::after{
+      width: 100%;
+      left: 0;
+    }
+    
+    
+      .navigation {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ffffff;
+        height: 14vh;
+        
+      }
+      body { 
+        margin: 0%; 
+        background-color: #195bc5;
+    
+    }
+    
+      .content{
+        width: 100%;
+        display:block;
+      }
+    
+      .amp{
+        display: flex;
+        justify-content: center;
+       
+      }
+    
+      .moto{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #EBF2FA;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 25px;
+      }
+     .second-moto{
+      color: whiTE;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     }
+    
+      .divmoto{
+        margin-left: 5vw;
+        margin-top: 20vh;
+        width: 90%;
+        background-color: #195bc5;
+    
+        
+      }
+      
+    
+     #hr{
+      margin-left: 8vw;
+      margin-right: 8vw;
+      color: white;
+     }
+    
+    .why-novabit{
+      display: flex;
+      justify-content: center;
+    }
+    .why-novabit h1{
+      color: white;
+    }
+    
+    
+      .footer{
+        text-align: center;
+      }
+      
+      .footer-meniu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+      }
+    
+    .footer-meniu li a{
+      background-color: #195bc5;
+      color: white;
+      
+    }
+    .footer-meniu ul{
+      background-color: #195bc5;
+      position: absolute;
+      
+    }
+     
+    
+    .copyright{
+      margin-top: 2vh;
+      display: flex ;
+      justify-content: center;
+      color: white;
+    }
+    .social{
+      display:flex ;
+      justify-content: center;
+    }
+    
+    .social a{
+      margin-left: 1vw;
     }
   }
 

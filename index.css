@@ -151,6 +151,7 @@ li:hover {
     align-items: center;
     background-color: #ffffff;
     height: 12vh;
+    z-index: 2;
     
   }
   body { 
@@ -198,29 +199,69 @@ li:hover {
   
 
  #hr{
+  padding-top: 5vh;
   margin-left: 8vw;
   margin-right: 8vw;
   color: white;
  }
-
-.why-novabit{
+.why-novabit {
   display: flex;
   justify-content: center;
-}
-.why-novabit h1{
+  align-items: center;
   color: white;
 }
 
 
+.divul-cel-mare{
+  margin-top: 10vh;
+  background-color: #195bc5;
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copil1{
+  background-color: rgb(255, 255, 255);
+  width: 20vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 14px;
+  margin-right: 15vw;
+  transition: ease-in-out .2s;
+}
+.copil1:hover{
+  background-color: #4245ff;
+  color: white;
+}
+.copil1:after{
+
+  
+}
+.copil2{
+  background-color: #195bc5;
+  color: white;
+  width: 30vw;
+  border-bottom-style: double;
+  
+}
+
+
+
+
+
   .footer{
     text-align: center;
+    
   }
   
   .footer-meniu{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+   
     
   }
 
@@ -245,6 +286,7 @@ li:hover {
 .social{
   display:flex ;
   justify-content: center;
+  padding-bottom: 5vh;
 }
 
 .social a{
@@ -260,6 +302,42 @@ li:hover {
 
 
   @media only screen and (max-width: 600px) {
+    .divul-cel-mare{
+      margin-top: 10vh;
+      background-color: #195bc5;
+      height: 20vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .copil1{
+      background-color: rgb(255, 255, 255);
+      width: 40vw;
+      height: 10vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 14px;
+      margin-right: 10vw;
+      transition: ease-in-out .2s;
+    }
+    .copil1:hover{
+      background-color: #4245ff;
+      color: white;
+    }
+    .copil1:after{
+    
+      
+    }
+    .copil2{
+      background-color: #195bc5;
+      color: white;
+      width: 30vw;
+      border-bottom-style: double;
+      
+    }
+
     .img-prz{
       width: 95vw;
       border-radius: 50%;

@@ -1,31 +1,47 @@
-.poza{
-  background-color: aqua;
+.img-prz{
+  width: 50vw;
+  border-radius: 50%;
+}
+.divbuton{
+  height: 130px;
+  position: relative;
+  border: 3px solid #195bc5;
+  background-color: #195bc5;
+}
+.div-poza {
+  background-color: #195bc5;
+  width: 50vw;
+  height: 50vh;
+  padding-top: 20vh;
+  margin-right: 5vw;
 }
 
-
 .button-1 {
-  margin-top: 6vh;
+  
   background-color: #EBF2FA;
   border: none;
   color: rgb(0, 0, 0);
-  padding: 15px 100px;
+  padding: 15px 70px;
   text-align: center;
   text-decoration: none;
   text-align: center;
   font-size: 22px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  display: flex;
   border: 2px solid #0c51c0;
   border-radius: 7px;
   margin: 0;
   position: absolute;
-  top: 110%;
-  left: 20%;
+  top: 30%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
   transition: 0.5s;
   
 }
 .button-1:hover{
-  background-color: rgb(22, 19, 19);
+  background-color:#0004ff;
+  border-bottom: #483bff;
   color: white;
  
 }
@@ -36,10 +52,10 @@
 }
 .novabit{
     font-family:'Trebuchet MS';
-    background: -webkit-linear-gradient(rgb(208, 203, 255), rgb(4, 0, 255));
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(49, 49, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 45px;
+    font-size: 60px;
 }
 
 
@@ -49,7 +65,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:#EBF2FA;
+    background-color:#ffffff;
     
   }
   
@@ -64,7 +80,7 @@ ul {
     display: block;
     color: black;
     text-align: center;
-    padding: 10px 15px;
+    padding: 5px 18px;
     text-decoration: none;
   }
 
@@ -130,24 +146,21 @@ li:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #EBF2FA;
+    background-color: #ffffff;
     height: 12vh;
     
   }
   body { 
     margin: 0%; 
-    background-color: #0c51c0;
+    background-color: #195bc5;
 
 }
 
   .content{
-    padding-top: 10vh;
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
     
-    
+   
   }
 
   .amp{
@@ -162,6 +175,7 @@ li:hover {
     display: flex;
     justify-content: center;
     text-align: center;
+    font-size: 38px;
   }
  .second-moto{
   color: whiTE;
@@ -171,18 +185,75 @@ li:hover {
  }
 
   .divmoto{
-    margin-left: 7vw;
+    margin-left: 5vw;
     margin-top: 30vh;
     width: 40%;
-    background-color: #0c51c0;
-    position: absolute;
-    display: block;
+    background-color: #195bc5;
+
+    
   }
   
 
+ #hr{
+  margin-left: 8vw;
+  margin-right: 8vw;
+  color: white;
+ }
 
+.why-novabit{
+  display: flex;
+  justify-content: center;
+}
+.why-novabit h1{
+  color: white;
+}
+
+
+  .footer{
+    text-align: center;
+  }
+  
+  .footer-meniu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+
+.footer-meniu li a{
+  background-color: #195bc5;
+  color: white;
+  
+}
+.footer-meniu ul{
+  background-color: #195bc5;
+  position: absolute;
+  
+}
+ 
+
+.copyright{
+  margin-top: 2vh;
+  display: flex ;
+  justify-content: center;
+  color: white;
+}
+.social{
+  display:flex ;
+  justify-content: center;
+}
+
+.social a{
+  margin-left: 1vw;
+}
   @media only screen and (max-width: 700px) {
     .amp {
       height: 35vh;
     }
   }
+
+
+
+
+  

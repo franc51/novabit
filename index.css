@@ -1,21 +1,55 @@
-.titlu{
-    margin-left: 1vw;
-}
-.novabit{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
+.poza{
+  background-color: aqua;
 }
 
-.meniu{
-    width: 100%;
+
+.button-1 {
+  margin-top: 6vh;
+  background-color: #EBF2FA;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 100px;
+  text-align: center;
+  text-decoration: none;
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  border: 2px solid #0c51c0;
+  border-radius: 7px;
+  margin: 0;
+  position: absolute;
+  top: 110%;
+  left: 20%;
+  transition: 0.5s;
+  
 }
+.button-1:hover{
+  background-color: rgb(22, 19, 19);
+  color: white;
+ 
+}
+.titlu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.novabit{
+    font-family:'Trebuchet MS';
+    background: -webkit-linear-gradient(rgb(208, 203, 255), rgb(4, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+}
+
+
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:#0062ff;
+    background-color:#EBF2FA;
     
   }
   
@@ -23,35 +57,86 @@ ul {
     display: flex;
     justify-content: right;
     float: right;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Trebuchet MS';
   }
   
   li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 15px;
     text-decoration: none;
   }
+
+   li.different{
+  border: none;
+  position: relative;
+}
+li.different:hover{
+  border: none;
+}
+li:hover {
+  border-bottom: 5px solid #FFFFFF;
+}
+.different::after{
+  content: '';
+  position: absolute;
+  width: 0px;
+  height: 5px;
+  left: 50%;
+  bottom:0;
+  background-color: white;
+  transition: all ease-in-out .2s;
+}
+.different:hover::after{
+  width: 100%;
+  left: 0;
+}
+
+    
   
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    color: #111;
+  
+  li.different{
+    border:none;
+    position: relative;
   }
+  li.different:hover{
+    border: none;
+  }
+  li:hover {
+    border-bottom: 5px solid #FFFFFF;
+  }
+
+  .different::after{
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 2px;
+    left: 50%;
+    bottom:0;
+    background: -webkit-linear-gradient(#eee, rgb(0, 89, 255));
+    transition: all ease-in-out .2s;
+  }
+  .different:hover::after{
+    width: 100%;
+    left: 0;
+  }
+
 
   .navigation {
     position: fixed;
     width: 100%;
     top: 0;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    background-color: #0062ff;
-    height: 8vh;
+    background-color: #EBF2FA;
+    height: 12vh;
     
   }
   body { 
     margin: 0%; 
-    background-color: rgb(255, 255, 255);
+    background-color: #0c51c0;
 
 }
 
@@ -72,11 +157,29 @@ ul {
   }
 
   .moto{
-    padding-top: 10vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #EBF2FA;
     display: flex;
     justify-content: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
   }
+ .second-moto{
+  color: whiTE;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+ }
+
+  .divmoto{
+    margin-left: 7vw;
+    margin-top: 30vh;
+    width: 40%;
+    background-color: #0c51c0;
+    position: absolute;
+    display: block;
+  }
+  
+
 
   @media only screen and (max-width: 700px) {
     .amp {

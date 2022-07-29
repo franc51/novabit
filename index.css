@@ -263,6 +263,7 @@ li:hover {
     .img-prz{
       width: 95vw;
       border-radius: 50%;
+      
     }
     .divbuton{
       height: 130px;
@@ -275,6 +276,8 @@ li:hover {
       height: 50vh;
       padding-top: 0vh;
       margin-right: 5vw;
+      
+     
     }
     
     .button-1 {
@@ -309,6 +312,7 @@ li:hover {
         display: flex;
         justify-content: left;
         align-items: center;
+       
     }
     .novabit{
         font-family:'Trebuchet MS';
@@ -316,6 +320,8 @@ li:hover {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 50px;
+        z-index: 2;
+        
     }
     
     
@@ -409,7 +415,7 @@ li:hover {
         align-items: center;
         background-color: #ffffff;
         height: 14vh;
-        
+        z-index: 2;
       }
       body { 
         margin: 0%; 
@@ -502,10 +508,12 @@ li:hover {
     .social{
       display:flex ;
       justify-content: center;
+      padding-bottom: 5vh;
     }
     
     .social a{
-      margin-left: 1vw;
+      margin-left: 1.5vw;
+      
     }
   }
 

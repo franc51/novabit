@@ -1,6 +1,21 @@
 @media screen and (max-width: 1400px) {
 
-
+  .div-poza-dev{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50px;
+  }
+.div-poza-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+  html {
+    scroll-behavior: smooth;
+  }
 .img-prz{
   width: 50vw;
   border-radius: 50%;
@@ -21,7 +36,7 @@
 
 .button-1 {
   
-  background-color: #EBF2FA;
+  background-color: #ffffff;
   border: none;
   color: rgb(0, 0, 0);
   padding: 15px 70px;
@@ -43,8 +58,9 @@
   
 }
 .button-1:hover{
-  background-color:#0004ff;
-  border-bottom: #483bff;
+  background-color:#2000d3;
+  border-color: white;
+  border-width: 4px;
   color: white;
  
 }
@@ -230,16 +246,16 @@ li:hover {
   align-items: center;
   border-radius: 14px;
   margin-right: 15vw;
+  border: 2px solid #0c51c0;
   transition: ease-in-out .2s;
 }
 .copil1:hover{
-  background-color: #4245ff;
+  background-color: #2000d3;
+  border-color: white;
+  border-width: 4px;
   color: white;
 }
-.copil1:after{
 
-  
-}
 .copil2{
   background-color: #195bc5;
   color: white;
@@ -293,6 +309,7 @@ li:hover {
   margin-left: 1vw;
 }
 
+
 }
 
 
@@ -302,6 +319,22 @@ li:hover {
 
 
   @media only screen and (max-width: 600px) {
+    .div-poza-dev{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+    }
+
+    .poza-price{
+      width: 99vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      border-radius: 50px;
+    }
     .divul-cel-mare{
       margin-top: 10vh;
       background-color: #195bc5;
@@ -313,13 +346,13 @@ li:hover {
     }
     .copil1{
       background-color: rgb(255, 255, 255);
-      width: 45vw;
+      width: 50vw;
       height: 10vh;
       display: flex;
       justify-content: center;
       align-items: center;
       border-radius: 14px;
-      margin-right: 10vw;
+      margin-right: 8vw;
       transition: ease-in-out .2s;
     }
     .copil1:hover{
@@ -424,7 +457,7 @@ li:hover {
       display: block;
       color: black;
       text-align: center;
-      padding: 5px 18px;
+      padding: 5px 8px;
       text-decoration: none;
     }
   

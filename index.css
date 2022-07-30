@@ -4,14 +4,25 @@
     display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-radius: 50px;
+  scale: 70%;
+  
   }
 .div-poza-price {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: white;
+  
+}
+.poza-price{
+  transition: 0.2s;
+  scale: 80%;
+}
+.poza-price:hover{
+  scale: 95%;
+  
 }
   html {
     scroll-behavior: smooth;
@@ -19,6 +30,10 @@
 .img-prz{
   width: 50vw;
   border-radius: 50%;
+  transition: 0.2s;
+}
+.img-prz:hover{
+  scale: 90%;
 }
 .divbuton{
   height: 130px;
@@ -308,7 +323,10 @@ li:hover {
 .social a{
   margin-left: 1vw;
 }
-
+.social a:hover{
+  background-color: #000000;
+  border-radius: 20px;
+}
 
 }
 
@@ -356,17 +374,14 @@ li:hover {
       transition: ease-in-out .2s;
     }
     .copil1:hover{
-      background-color: #4245ff;
+      background-color: #195bc5;
       color: white;
     }
-    .copil1:after{
     
-      
-    }
     .copil2{
       background-color: #195bc5;
       color: white;
-      width: 30vw;
+      width: 35vw;
       border-bottom-style: double;
       
     }
@@ -559,6 +574,7 @@ li:hover {
       display: flex;
       align-items: center;
       justify-content: center;
+      text-align: center;
      }
     
       .divmoto{
@@ -575,6 +591,8 @@ li:hover {
       margin-left: 8vw;
       margin-right: 8vw;
       color: white;
+      padding-top: 0vh;
+      
      }
     
     .why-novabit{
@@ -602,16 +620,18 @@ li:hover {
       background-color: #195bc5;
       color: white;
       
+    
     }
     .footer-meniu ul{
       background-color: #195bc5;
       position: absolute;
-      
+      margin-top: 10vh;
     }
      
     
     .copyright{
-      margin-top: 2vh;
+      padding-bottom: 1vh;
+      padding-top: 4vh;
       display: flex ;
       justify-content: center;
       color: white;
@@ -619,13 +639,18 @@ li:hover {
     .social{
       display:flex ;
       justify-content: center;
-      padding-bottom: 5vh;
+      padding-bottom: 4vh;
     }
     
     .social a{
       margin-left: 1.5vw;
       
+      
     }
+.social a:hover{
+  background-color: #000000;
+  border-radius: 20px;
+}
   }
 
 
